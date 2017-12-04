@@ -4,17 +4,19 @@
       <!--<img src="./../assets/images/index/logo.png" >-->
     </header>
     <div id="banner" class="banner">
+
       <yd-slider autoplay="3000" index ='1' style="height:3rem;margin:0;padding:0;" >
+        <yd-slider-item style=" height:3rem;margin:0;padding:0;">
+          <router-link :to="{path:'/details',query: {name: 816}}">
+            <img src="./../assets/resource/banner/banner-6.jpg">
+          </router-link>
+        </yd-slider-item>
         <yd-slider-item >
-          <router-link :to="{path:'/details',query: {name: 666}}">
+          <router-link :to="{path:'/details',query: {name: 805}}">
             <img src="./../assets/resource/banner/banner-3.jpg">
           </router-link>
         </yd-slider-item>
-        <yd-slider-item style=" height:3rem;margin:0;padding:0;">
-          <router-link :to="{path:'/details',query: {name: 734}}">
-            <img src="./../assets/resource/banner/banner-1.jpg">
-          </router-link>
-        </yd-slider-item>
+
         <yd-slider-item >
           <router-link :to="{path:'/details',query: {name: 727}}">
             <img src="./../assets/resource/banner/banner-2.jpg">
@@ -77,7 +79,7 @@
           <div class="honor-company" style="height: .94rem;transform:translateY(-.21rem);padding-left:.24rem;">
             <div class="honor-circle"></div>
             <div class="honor-title">公司荣誉</div>
-            <div class="honor-brief">2016年广播电视科技创新产品奖</div>
+            <div  class="honor-brief">2016年广播电视科技创新产品奖</div>
             <div class="honor-line"></div>
             <div class="honor-image"><img src="./../assets/resource/honor/trophy-1.png" alt=""></div>
           </div>
@@ -101,7 +103,7 @@
         <div class="honor-company" style="height: .94rem;transform:translateY(-.21rem);padding-left:.24rem;">
           <div class="honor-circle"></div>
           <div class="honor-title">公司荣誉</div>
-          <div class="honor-brief">2016年广播电视科技创新产品奖</div>
+          <div style="" class="honor-brief">第九届中国电影电视技术学会科学技术奖</div>
           <div class="honor-line"></div>
           <div class="honor-image"><img src="./../assets/resource/honor/trophy-3.png" alt=""></div>
         </div>
@@ -370,8 +372,11 @@
 .honor-brief{
   font-size: .24rem;
   transform: translateY(-.16rem);
-  float:left;
+  width: 3.46rem;
   height: .30rem;
+  /*overflow: hidden;*/
+  /*white-space: nowrap;*/
+  /*text-overflow: ellipsis;*/
 
 }
 .honor-line{
@@ -691,5 +696,12 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+  }
+  .honor-mycompany-brief{
+    width: 3.46rem;
+    height:.24rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 </style>

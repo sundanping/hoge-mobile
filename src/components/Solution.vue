@@ -154,13 +154,13 @@
         {
           img: require('../assets/images/solution/media/media-3.png'),
           title: '新闻网站',
-          text: '基于先进的云计算架构，稳定的技术后台支撑，有效支持多终端、多应用新闻网站建设。'
+          text: '基于云计算架构，稳定的技术后台支撑，有效支持多终端、多应用新闻网站建设。'
         }
         ],
           mobile: [{
             img: require('../assets/images/solution/mobile/2_03.png'),
             title: '手机台',
-            text: '以先进的流媒体技术以及多项专有技术，最大限度的确保广电媒体在移动化时代的主流地位。'
+            text: '以流媒体技术以及多项专有技术，最大限度的确保广电媒体在移动化时代的主流地位。'
           },
           {
             img: require('../assets/images/solution/mobile/3_03.png'),

@@ -26,7 +26,9 @@
         .then(function (response) {
         _this.title = response.data[0].title
         _this.content = response.data[0].content
-        _this.content = _this.content.replace(/<img/ig, "<img margin:auto; width=" + imgWidth)
+        _this.content = _this.content.replace(/<img/ig, "<img  width=" + imgWidth)
+        _this.content = _this.content.replace(/<a/ig, "<a style='word-break:break-all' ")
+        _this.content = _this.content.replace(/<video/ig, "<video margin:auto; width=" + imgWidth)
         _this.content = _this.content.replace(/imageid="2012"/ig, "id='width-50'" )
         _this.content = _this.content.replace(/imageid="2011"/ig, "id='width-50'" )
         _this.content = _this.content.replace(/<p/ig, '<p  style="margin-bottom:10px;line-height:20px;"')

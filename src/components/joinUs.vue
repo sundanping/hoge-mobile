@@ -8,8 +8,8 @@
       <div style="text-align: center;margin-left: .4rem;padding-top:1rem;" align="center">
         <h2 class="animate-h1">合·作</h2>
 
-        <p class="animate-p" style="margin: .1rem 0">我们用心合作，像相互咬合的齿轮，齐头并进，</p>
-        <p class="animate-p">并输予企业发展源源不断的动力。</p>
+        <p class="animate-p" style="margin: .1rem 0">我们用心合作，像相互咬合的齿轮，齐头并进</p>
+        <p class="animate-p">并输予企业发展源源不断的动力</p>
       </div>
     </div>
     <div style="height: .2rem;background-color: #f5f5f5"></div>

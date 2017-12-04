@@ -8,8 +8,8 @@
      <div style="text-align: center;margin-left: .4rem;padding-top:1rem;" align="center">
        <h2 class="animate-h1">信·任</h2>
 
-       <p style="margin: .1rem 0">十年数百家媒体客户认可</p>
-       <p>业内领先的产品理念和先进技术</p>
+       <p style="margin: .1rem 0">专注媒体行业十余年</p>
+       <p>获得数百家媒体客户认可，建立长期合作关系</p>
      </div>
    </div>
   <div style="height: .2rem;background-color: #f5f5f5"></div>
